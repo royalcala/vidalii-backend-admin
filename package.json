@@ -1,0 +1,32 @@
+{
+  "name": "vidalii-backend-admin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "graphql-codegen --config codegen.yml"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/royalcala/vidalii-backend-admin.git"
+  },
+  "author": {
+    "name": "Roy Alcala Ortiz",
+    "email": "alcala.rao@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/royalcala/vidalii-backend-admin/issues"
+  },
+  "homepage": "https://github.com/royalcala/vidalii-backend-admin#readme",
+  "dependencies": {
+    "@vidalii/vidalii-backend": "^0.0.26"
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "1.21.2",
+    "graphql": "^15.5.0",
+    "@graphql-codegen/typescript": "1.21.1",
+    "@graphql-codegen/introspection": "1.18.1"
+  }
+}

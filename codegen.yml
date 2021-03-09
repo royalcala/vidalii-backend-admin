@@ -1,0 +1,10 @@
+overwrite: true
+schema: "src/components/**/*.api.ts"
+documents: "src/components/**/*.api.ts"
+generates:
+  src/components/types:
+    plugins:
+      - "typescript"
+  ./graphql.schema.json:
+    plugins:
+      - "introspection"
